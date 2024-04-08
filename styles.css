@@ -152,7 +152,7 @@ body {
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 4% 15%;
+    padding: 5% 15%;
 }
 .quote-container .quote {
     display: flex;
@@ -172,5 +172,65 @@ body {
     font-weight: 700;
     align-self: flex-end;
     margin: 0;
-    padding-right: 56px;
+    padding: 0 10%;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 76px;
+}
+
+.call-to-action .cta-container {
+    display: flex;
+    border-radius: 10px;
+    padding: 2.5% 6%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 148px;
+}
+
+.cta-container .cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text .cta-text-big {
+    font-size: 18px;
+    font-weight: bold;
+    color:#E5E7EB;
+}
+
+.cta-text .cta-text-small {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.cta-sign-up a {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: 800;
+    width: 100px;
+    padding: 4px 20px;
+    border-radius: 10px;
+    border:#E5E7EB solid;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-box {
+    display: flex;
+    height: 72px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box .footer-text {
+    font-size: 14px;
+    display: flex;
+    color: #E5E7EB;
 }
